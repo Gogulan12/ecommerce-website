@@ -36,14 +36,12 @@ export default function Header() {
   const [displayName, setdisplayName] = useState("");
   const [scrollPage, setScrollPage] = useState(false);
   const cartTotalQuantity = useSelector(selectCartTotalQuantity);
-
+  const dispatch = useDispatch();
   useEffect(() => {
     dispatch(CALCULATE_TOTAL_QUANTITY());
-  }, []);
+  }, [dispatch]);
 
   const navigate = useNavigate();
-
-  const dispatch = useDispatch();
 
   const fixNavbar = () => {
     if (window.scrollY > 50) {
@@ -188,14 +186,4 @@ export default function Header() {
       </div>
     </header>
   );
-}
-
-// const uid = user.uid;
-// console.log(user.displayName);
-// const atIndex = user.email.indexOf('@');
-// const u1 = atIndex !== -1 ? user.email.slice(0, atIndex) : user.email;
-{
-  /* <NavLink to="/register" className={activeLink}>
-Register
-</NavLink> */
 }

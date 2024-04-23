@@ -24,6 +24,7 @@ export default function useFetchDocument(collectionName, documentID) {
 
   useEffect(() => {
     getDocument();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return { document };
