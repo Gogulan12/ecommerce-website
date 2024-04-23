@@ -6,14 +6,14 @@ import {
   STORE_ORDERS,
   selectOrderHistory,
 } from "../../../redux/slice/orderSlice";
-import { selectUserID } from "../../../redux/slice/authSlice";
+// import { selectUserID } from "../../../redux/slice/authSlice";
 import { useNavigate } from "react-router-dom";
 import Loader from "../../loader/Loader";
 
 export default function Orders() {
   const { data, isLoading } = useFetchCollection("orders");
   const orders = useSelector(selectOrderHistory);
-  const userID = useSelector(selectUserID);
+  // const userID = useSelector(selectUserID);
 
   const dispatch = useDispatch();
   const navigate = useNavigate();

@@ -51,7 +51,7 @@ export default function AddProduct() {
   const navigate = useNavigate();
 
   function detectForm(id, f1, f2) {
-    if (id == "ADD") {
+    if (id === "ADD") {
       return f1;
     }
     return f2;
@@ -92,7 +92,7 @@ export default function AddProduct() {
     setIsLoading(true);
 
     try {
-      const docRef = addDoc(collection(db, "products"), {
+      addDoc(collection(db, "products"), {
         name: product.name,
         imageURL: product.imageURL,
         price: Number(product.price),
