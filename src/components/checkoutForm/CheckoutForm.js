@@ -86,6 +86,7 @@ export default function CheckoutForm() {
 
     setIsLoading(true);
 
+    // eslint-disable-next-line no-unused-vars
     const confirmPayment = await stripe
       .confirmPayment({
         elements,
@@ -116,6 +117,7 @@ export default function CheckoutForm() {
     setIsLoading(false);
   };
 
+  // eslint-disable-next-line no-unused-vars
   const paymentElementOptions = {
     layout: "tabs",
   };
