@@ -93,7 +93,7 @@ export default function CheckoutForm() {
         confirmParams: {
           // Make sure to change this to your payment completion page
           return_url:
-            "https://northwayecommerceproject.render.com/checkout-success",
+            "https://northwayecommerceproject.onrender.com/checkout-success",
         },
         redirect: "if_required",
         // redirect_url: "if_required",
