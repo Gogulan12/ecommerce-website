@@ -41,12 +41,12 @@ export default function Register() {
   };
 
   return (
-    <>
+    <div style={{ paddingBottom: "200px" }}>
       {isLoading && <Loader />}
       <section className={`container ${styles.auth}`}>
         <Card>
           <div className={styles.form}>
-            <h2>Register</h2>
+            <h2 style={{ color: "black" }}>Register</h2>
             <form onSubmit={registerUser}>
               <input
                 type="text"
@@ -84,6 +84,6 @@ export default function Register() {
           <img src={registerImg} alt="Register" width="400" />
         </div>
       </section>
-    </>
+    </div>
   );
 }

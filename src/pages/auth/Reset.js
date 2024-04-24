@@ -31,7 +31,7 @@ export default function Reset() {
   };
 
   return (
-    <>
+    <div style={{ paddingBottom: "200px" }}>
       {isLoading && <Loader />}
       <section className={`container ${styles.auth}`}>
         <div className={styles.img}>
@@ -39,7 +39,7 @@ export default function Reset() {
         </div>
         <Card>
           <div className={styles.form}>
-            <h2>Reset Password</h2>
+            <h2 style={{ color: "black" }}>Reset Password</h2>
             <form onSubmit={resetPassword}>
               <input
                 type="text"
@@ -63,6 +63,6 @@ export default function Reset() {
           </div>
         </Card>
       </section>
-    </>
+    </div>
   );
 }

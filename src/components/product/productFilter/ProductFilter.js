@@ -51,6 +51,13 @@ export default function ProductFilter() {
     setPrice(maxPrice);
   };
 
+  const sliderStyle = {
+    background: "#d3d3d3",
+    fill: "black",
+    stroke: "none",
+    accentColor: "#104f55",
+  };
+
   return (
     <div className={styles.filter}>
       <h4>Categories</h4>
@@ -88,6 +95,7 @@ export default function ProductFilter() {
             onChange={(e) => setPrice(e.target.value)}
             min={minPrice}
             max={maxPrice}
+            style={sliderStyle}
           />
         </div>
         <br />

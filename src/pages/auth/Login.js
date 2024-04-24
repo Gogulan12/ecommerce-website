@@ -63,7 +63,7 @@ export default function Login() {
   };
 
   return (
-    <>
+    <div style={{ paddingBottom: "200px" }}>
       {isLoading && <Loader />}
       <section className={`container ${styles.auth}`}>
         <div className={styles.img}>
@@ -71,7 +71,7 @@ export default function Login() {
         </div>
         <Card>
           <div className={styles.form}>
-            <h2>Login</h2>
+            <h2 style={{ color: "black" }}>Login</h2>
 
             <form onSubmit={loginUser}>
               <input
@@ -109,6 +109,6 @@ export default function Login() {
           </div>
         </Card>
       </section>
-    </>
+    </div>
   );
 }

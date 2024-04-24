@@ -45,10 +45,10 @@ export default function ProductList({ products }) {
         <div className={styles.icons}>
           <BsFillGridFill
             size={22}
-            color="orangered"
+            color="#32746D"
             onClick={() => setGrid(true)}
           />
-          <FaListAlt size={24} color="#0066d4" onClick={() => setGrid(false)} />
+          <FaListAlt size={24} color="#104F55" onClick={() => setGrid(false)} />
           <p>
             <b>{filteredProducts.length}</b> Products found.
           </p>
