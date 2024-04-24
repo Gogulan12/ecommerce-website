@@ -159,9 +159,9 @@ export default function Header() {
                 </NavLink>
               </ShowOnLogout>
               <ShowOnLogin>
-                <a href="#home" style={{ color: "#ff7722" }}>
-                  <FaUserCircle size={16} />
-                  Hi, {displayName}
+                <a href="#home" style={{ color: "#32746d" }}>
+                  <FaUserCircle size={16} />{" "}
+                  <span style={{ margin: "0px" }}>&nbsp;</span>Hi, {displayName}
                 </a>
               </ShowOnLogin>
               <ShowOnLogin>

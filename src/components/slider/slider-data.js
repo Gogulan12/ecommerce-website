@@ -1,8 +1,8 @@
 export const sliderData = [
   {
     image:
-      "https://images.unsplash.com/photo-1556774687-0e2fdd0116c0?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    heading: "Shoes Villa",
+      "https://images.unsplash.com/photo-1458538977777-0549b2370168?q=80&w=1748&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    heading: "Fragrances",
     desc: "Up to 30% off on all onsale proucts.",
   },
   {
@@ -18,8 +18,9 @@ export const sliderData = [
     desc: "Up to 30% off on all onsale proucts.",
   },
   {
-    image: "https://i.ibb.co/H2FRmtV/bg-3.jpg",
-    heading: "Awesome Gadgets",
+    image:
+      "https://images.unsplash.com/photo-1526566762798-8fac9c07aa98?q=80&w=1608&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    heading: "Lifestyle Products",
     desc: "Up to 30% off on all onsale proucts.",
   },
 ];
