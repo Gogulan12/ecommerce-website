@@ -58,7 +58,7 @@ export default function Product() {
             <ProductList products={products} />
           )}
           <div className={styles.icon} onClick={toggleFilter}>
-            <FaCogs size={20} color="orangered" />
+            <FaCogs size={20} color="#32746D" />
             <p>
               <b>{showFilter ? "Hide Filter" : "Show Filter"}</b>
             </p>
