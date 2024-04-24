@@ -61,7 +61,7 @@ export default function Cart() {
   };
 
   return (
-    <section>
+    <section style={{ height: "100vh" }}>
       <div className={`container ${styles.table}`}>
         <h2>Shopping Cart</h2>
         {cartItems.length === 0 ? (
